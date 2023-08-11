@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Fresh harvest box</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <ul class="header-nav">
+                <li class="header-nav-item">
+                    <a href="#" class="header-nav-link">How It Works</a>
+                </li>
+                <li class="header-nav-item">
+                    <a href="#" class="header-nav-link">Fruits</a>
+                </li>
+                <li class="header-nav-item">
+                    <a href="#" class="header-nav-link">Contacts</a>
+                </li>
+            </ul>
+            <div class="header-logo-container">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M14.5411 0.156924H12.5364C11.9178 0.156924 11.4163 0.648347 11.4163 1.25459V3.21923C11.4163 3.82547 11.9178 4.31692 12.5364 4.31692H14.5411C15.1597 4.31692 15.6612 3.82547 15.6612 3.21923V1.25459C15.6612 0.648347 15.1597 0.156924 14.5411 0.156924Z" fill="#AE1332"/>
+                    <path d="M3.36519 11.52H1.20624C0.540049 11.52 0 12.0115 0 12.6177V14.5823C0 15.1886 0.540049 15.68 1.20624 15.68H3.36519C4.03138 15.68 4.57143 15.1886 4.57143 14.5823V12.6177C4.57143 12.0115 4.03138 11.52 3.36519 11.52Z" fill="#AE1332"/>
+                    <path d="M3.1248 5.79091H1.12007C0.501486 5.79091 0 6.28233 0 6.88857V8.85321C0 9.45945 0.501599 9.95091 1.12018 9.95091H3.1248C3.74341 9.95091 4.2449 9.45945 4.2449 8.85321V6.88857C4.2449 6.28233 3.74341 5.79091 3.1248 5.79091Z" fill="#AE1332"/>
+                    <path d="M8.88295 11.4891H6.87822C6.25964 11.4891 5.75815 11.9805 5.75815 12.5868L5.75804 14.5514C5.75804 15.1576 6.25975 15.6491 6.87833 15.6491H8.88295C9.50157 15.6491 10.0031 15.1576 10.0031 14.5514V12.5868C10.0031 11.9805 9.50157 11.4891 8.88295 11.4891Z" fill="#AE1332"/>
+                    <path d="M3.1248 0.0431361H1.12007C0.501486 0.0431361 0 0.534559 0 1.1408V3.10544C0 3.71168 0.501599 4.20314 1.12018 4.20314H3.1248C3.74341 4.20314 4.2449 3.71168 4.2449 3.10544V1.1408C4.2449 0.534559 3.74341 0.0431361 3.1248 0.0431361Z" fill="#AE1332"/>
+                    <path d="M9.03794 5.84874H7.03321C6.41463 5.84874 5.91314 6.34016 5.91314 6.9464V8.91104C5.91314 9.51728 6.41474 10.0087 7.03332 10.0087H9.03794C9.65655 10.0087 10.158 9.51728 10.158 8.91104V6.9464C10.158 6.34016 9.65655 5.84874 9.03794 5.84874Z" fill="#AE1332"/>
+                    <path d="M14.6667 11.4891H12.6619C12.0434 11.4891 11.5419 11.9805 11.5419 12.5868V14.5514C11.5419 15.1576 12.0435 15.6491 12.662 15.6491H14.6667C15.2853 15.6491 15.7868 15.1576 15.7868 14.5514V12.5868C15.7868 11.9805 15.2853 11.4891 14.6667 11.4891Z" fill="#AE1332"/>
+                    <path d="M8.7953 0.111854H6.79056C6.17198 0.111854 5.6705 0.603277 5.6705 1.20952V3.17416C5.6705 3.7804 6.1721 4.27185 6.79068 4.27185H8.7953C9.41391 4.27185 9.91539 3.78003 9.91539 3.17379V1.20952C9.91539 0.603277 9.41391 0.111854 8.7953 0.111854Z" fill="#AE1332"/>
+                    <path d="M14.5219 5.96291H12.5171C11.8985 5.96291 11.3971 6.45433 11.3971 7.06057V9.02521C11.3971 9.63145 11.8987 10.1229 12.5172 10.1229H14.5219C15.1405 10.1229 15.642 9.63145 15.642 9.02521V7.06057C15.642 6.45433 15.1405 5.96291 14.5219 5.96291Z" fill="#AE1332"/>
+                </svg>
+                <p class="header-logo">fresh harvest box</p>
+            </div>
+            <button type="button" class="header-basket-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.612 6.084C9.16 6.711 9 7.494 9 8V9H15V8C15 7.493 14.84 6.711 14.389 6.084C13.974 5.508 13.274 5 12 5C10.726 5 10.026 5.508 9.612 6.084ZM17 9V8C17 7.173 16.76 5.956 16.012 4.916C15.226 3.825 13.926 3 12 3C10.074 3 8.774 3.825 7.988 4.916C7.24 5.956 7 7.173 7 8V9H3C2.73478 9 2.48043 9.10536 2.29289 9.29289C2.10536 9.48043 2 9.73478 2 10C2 10.2652 2.10536 10.5196 2.29289 10.7071C2.48043 10.8946 2.73478 11 3 11H3.095L4.005 20.1C4.02979 20.3467 4.14532 20.5753 4.32917 20.7416C4.51302 20.9079 4.75209 21 5 21H19C19.2479 21 19.487 20.9079 19.6708 20.7416C19.8547 20.5753 19.9702 20.3467 19.995 20.1L20.905 11H21C21.2652 11 21.5196 10.8946 21.7071 10.7071C21.8946 10.5196 22 10.2652 22 10C22 9.73478 21.8946 9.48043 21.7071 9.29289C21.5196 9.10536 21.2652 9 21 9H17ZM9 14C9 13.7348 8.89464 13.4804 8.70711 13.2929C8.51957 13.1054 8.26522 13 8 13C7.73478 13 7.48043 13.1054 7.29289 13.2929C7.10536 13.4804 7 13.7348 7 14V16C7 16.2652 7.10536 16.5196 7.29289 16.7071C7.48043 16.8946 7.73478 17 8 17C8.26522 17 8.51957 16.8946 8.70711 16.7071C8.89464 16.5196 9 16.2652 9 16V14ZM13 14C13 13.7348 12.8946 13.4804 12.7071 13.2929C12.5196 13.1054 12.2652 13 12 13C11.7348 13 11.4804 13.1054 11.2929 13.2929C11.1054 13.4804 11 13.7348 11 14V16C11 16.2652 11.1054 16.5196 11.2929 16.7071C11.4804 16.8946 11.7348 17 12 17C12.2652 17 12.5196 16.8946 12.7071 16.7071C12.8946 16.5196 13 16.2652 13 16V14ZM17 14C17 13.7348 16.8946 13.4804 16.7071 13.2929C16.5196 13.1054 16.2652 13 16 13C15.7348 13 15.4804 13.1054 15.2929 13.2929C15.1054 13.4804 15 13.7348 15 14V16C15 16.2652 15.1054 16.5196 15.2929 16.7071C15.4804 16.8946 15.7348 17 16 17C16.2652 17 16.5196 16.8946 16.7071 16.7071C16.8946 16.5196 17 16.2652 17 16V14Z" fill="#AE1332"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- hero section -->
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-title">fresh harvest box is your 0ne-stop place for a delicious fruit basket</h1>
+                <div class="hero-container-for-img">
+                    <div class="hero-img-container">
+                        <img src="./images/hero-img.png" alt="photo" class="hero-img">
+                    </div>
+                    <button class="hero-button">
+                        <p class="hero-button-text">shop now</p>
+                    </button>
+                </div>
+                <div class="hero-text-container">
+                    <p class="hero-text">
+                        Our expertly curated fruit baskets are made with the freshest, highest quality fruits available. 
+                        Whether you are looking for a healthy snack or a gift for a loved one, Fresh Harvest Box has got you covered.
+                    </p>
+                    <div class="cards-container">
+                        <div class="hero-green-card">
+                            <h2 class="hero-green-title">Fruit</h2>
+                            <img src="./images/hero-watermelon.png" alt="watermelon" class="hero-green-img">
+                            <p class="hero-green-text">Refreshing and juicy, watermelon is the perfect summer treat and a great source of hydration</p>
+                        </div>
+                        <div class="hero-yellow-card">
+                            <h2 class="hero-yellow-title">Fruit</h2>
+                            <img src="./images/hero-strawberries.png" alt="strawberries" class="hero-yellow-img">
+                            <p class="hero-yellow-text">Sweet and juicy, strawberries are packed with vitamin C and antioxidants, making them a delicious and healthy snack</p>
+                        </div>
+                    </div>
+                    <ul class="hero-tags">
+                        <li class="hero-tags-item">#organic</li>
+                        <li class="hero-tags-item">#products</li>
+                        <li class="hero-tags-item">#basket</li>
+                        <li class="hero-tags-item">#fruits</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- order section -->
+        <section class="order">
+            <div class="container">
+                <h2 class="order-title">To order your fruit basket, simply follow these easy steps</h2>
+                <p class="order-text">Our baskets are assembled with care and delivered straight to your doorstep, 
+                    so you can enjoy the taste of fresh fruit without ever leaving your home. Whether you're looking 
+                    for a healthy snack or a thoughtful gift, our fruit baskets are the perfect choice.
+                </p>
+                <ul class="order-list">
+                    <li class="order-item">
+                        <h3 class="order-item-title">First Step</h3>
+                        <p class="order-item-text">Just choose the fruit you want to order by clicking on the checkboxes next to it.</p>
+                    </li>
+                    <li class="order-item">
+                        <h3 class="order-item-title order-green-title">Second Step</h3>
+                        <p class="order-item-text">Click on the basket and fill out the form.</p>
+                    </li>
+                    <li class="order-item">
+                        <h3 class="order-item-title order-yellow-title">Third Step</h3>
+                        <p class="order-item-text">Sit back and relax! Your fresh fruit basket will be delivered.</p>
+                    </li>
+                </ul>
+                <img src="./images/order-gif.gif" alt="gif" class="order-gif">
+            </div>
+        </section>
+
+
+        <!-- products section  -->
+
+        <section class="products">
+            <div class="container">
+                <h2 class="products-title">oRGANIC fRUITS</h2>
+                <p class="products-text">
+                    Our organic fruits are hand-picked from local farms and delivered straight 
+                    to your doorstep, ensuring that you get the freshest and most nutritious produce possible. 
+                    We offer a wide selection of organic fruits grown without the use of harmful pesticides or chemicals.
+                </p>
+                <ul class="products-list">
+                    <li class="products-item">
+                        <h3 class="products-name">Strawberry</h3>
+                        <p class="products-type">Plant</p>
+                        <img src="./images/products-img1.png" alt="Strawberry" class="products-img">
+                        <button type="button" class="products-item-button">100 UAH / kg</button>
+                    </li>
+                    <li class="products-item">
+                        <h3 class="products-name">Banana</h3>
+                        <p class="products-type">Plant</p>
+                        <img src="./images/products-img2.png" alt="Banana" class="products-img">
+                        <button type="button" class="products-item-button">80 UAH / kg</button>
+                    </li>
+                    <li class="products-item">
+                        <h3 class="products-name">Watermelon</h3>
+                        <p class="products-type">Plant</p>
+                        <img src="./images/products-img3.png" alt="Watermelon" class="products-img">
+                        <button type="button" class="products-item-button">40 UAH / kg</button>
+                    </li>
+                    <li class="products-item">
+                        <h3 class="products-name">Lime</h3>
+                        <p class="products-type">Plant</p>
+                        <img src="./images/products-img4.png" alt="Lime" class="products-img">
+                        <button type="button" class="products-item-button">60 UAH / kg</button>
+                    </li>
+                    <li class="products-item">
+                        <h3 class="products-name">Apple</h3>
+                        <p class="products-type">Plant</p>
+                        <img src="./images/products-img5.png" alt="Apple" class="products-img">
+                        <button type="button" class="products-item-button">50 UAH / kg</button>
+                    </li>
+                    <li class="products-item">
+                        <h3 class="products-name">Peach</h3>
+                        <p class="products-type">Plant</p>
+                        <img src="./images/products-img6.png" alt="Peach" class="products-img">
+                        <button type="button" class="products-item-button">80 UAH / kg</button>
+                    </li>
+                    <li class="products-item">
+                        <h3 class="products-name">Plums</h3>
+                        <p class="products-type">Plant</p>
+                        <img src="./images/products-img7.png" alt="Plums" class="products-img">
+                        <button type="button" class="products-item-button">40 UAH / kg</button>
+                    </li>
+                    <li class="products-item">
+                        <h3 class="products-name">Orange</h3>
+                        <p class="products-type">Plant</p>
+                        <img src="./images/products-img8.png" alt="Orange" class="products-img">
+                        <button type="button" class="products-item-button">60 UAH / kg</button>
+                    </li>
+                    <li class="products-item">
+                        <h3 class="products-name">Kiwi</h3>
+                        <p class="products-type">Plant</p>
+                        <img src="./images/products-img9.png" alt="Kiwi" class="products-img">
+                        <button type="button" class="products-item-button">90 UAH / kg</button>
+                    </li>
+                </ul>
+                <button class="products-button" type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                        <path d="M14 2.15073L11.9259 0.0766602V10.447L1.55556 0.0766602L0 1.63222L10.3704 12.0026H0L2.07407 14.0767H14V2.15073Z" fill="white"/>
+                    </svg>
+                    oRDER
+                </button>
+            </div>
+        </section>
+
+
+        <!-- boxes section  -->
+        <section class="boxes">
+            <div class="container">
+                <h2 class="boxes-title"> Fresh Harvest Box has got you covered</h2>
+                <div class="boxes-photo-box">
+                    <img src="./images/boxes-background1.jpg" alt="photo" class="boxes-img">
+                    <img src="./images/boxes-background2.jpg" alt="photo" class="boxes-img">
+                </div>
+                <p class="boxes-text">
+                    Our boxes are packed with delicious, nutritious fruits and vegetables, 
+                    perfect for anyone looking to eat healthier or support local farmers. Order your 
+                    box today and start enjoying the best that nature has to offer!
+                </p>
+                <div class="boxes-form">
+                    <input type="email" class="boxes-input" placeholder="Enter email...">
+                    <button class="boxes-button" type="submit">Send</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!--footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo-box">
+                <img src="./images/footer-logo-img.jpg" alt="photo" class="logo-img">
+                <div class="footer-logo-text-box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M14.5411 0.156924H12.5364C11.9178 0.156924 11.4163 0.648347 11.4163 1.25459V3.21923C11.4163 3.82547 11.9178 4.31692 12.5364 4.31692H14.5411C15.1597 4.31692 15.6612 3.82547 15.6612 3.21923V1.25459C15.6612 0.648347 15.1597 0.156924 14.5411 0.156924Z" fill="#AE1332"/>
+                        <path d="M3.36519 11.52H1.20624C0.540049 11.52 0 12.0115 0 12.6177V14.5823C0 15.1886 0.540049 15.68 1.20624 15.68H3.36519C4.03138 15.68 4.57143 15.1886 4.57143 14.5823V12.6177C4.57143 12.0115 4.03138 11.52 3.36519 11.52Z" fill="#AE1332"/>
+                        <path d="M3.1248 5.79091H1.12007C0.501486 5.79091 0 6.28233 0 6.88857V8.85321C0 9.45945 0.501599 9.95091 1.12018 9.95091H3.1248C3.74341 9.95091 4.2449 9.45945 4.2449 8.85321V6.88857C4.2449 6.28233 3.74341 5.79091 3.1248 5.79091Z" fill="#AE1332"/>
+                        <path d="M8.88295 11.4891H6.87822C6.25964 11.4891 5.75815 11.9805 5.75815 12.5868L5.75804 14.5514C5.75804 15.1576 6.25975 15.6491 6.87833 15.6491H8.88295C9.50157 15.6491 10.0031 15.1576 10.0031 14.5514V12.5868C10.0031 11.9805 9.50157 11.4891 8.88295 11.4891Z" fill="#AE1332"/>
+                        <path d="M3.1248 0.0431361H1.12007C0.501486 0.0431361 0 0.534559 0 1.1408V3.10544C0 3.71168 0.501599 4.20314 1.12018 4.20314H3.1248C3.74341 4.20314 4.2449 3.71168 4.2449 3.10544V1.1408C4.2449 0.534559 3.74341 0.0431361 3.1248 0.0431361Z" fill="#AE1332"/>
+                        <path d="M9.03794 5.84874H7.03321C6.41463 5.84874 5.91314 6.34016 5.91314 6.9464V8.91104C5.91314 9.51728 6.41474 10.0087 7.03332 10.0087H9.03794C9.65655 10.0087 10.158 9.51728 10.158 8.91104V6.9464C10.158 6.34016 9.65655 5.84874 9.03794 5.84874Z" fill="#AE1332"/>
+                        <path d="M14.6667 11.4891H12.6619C12.0434 11.4891 11.5419 11.9805 11.5419 12.5868V14.5514C11.5419 15.1576 12.0435 15.6491 12.662 15.6491H14.6667C15.2853 15.6491 15.7868 15.1576 15.7868 14.5514V12.5868C15.7868 11.9805 15.2853 11.4891 14.6667 11.4891Z" fill="#AE1332"/>
+                        <path d="M8.7953 0.111854H6.79056C6.17198 0.111854 5.6705 0.603277 5.6705 1.20952V3.17416C5.6705 3.7804 6.1721 4.27185 6.79068 4.27185H8.7953C9.41391 4.27185 9.91539 3.78003 9.91539 3.17379V1.20952C9.91539 0.603277 9.41391 0.111854 8.7953 0.111854Z" fill="#AE1332"/>
+                        <path d="M14.5219 5.96291H12.5171C11.8985 5.96291 11.3971 6.45433 11.3971 7.06057V9.02521C11.3971 9.63145 11.8987 10.1229 12.5172 10.1229H14.5219C15.1405 10.1229 15.642 9.63145 15.642 9.02521V7.06057C15.642 6.45433 15.1405 5.96291 14.5219 5.96291Z" fill="#AE1332"/>
+                    </svg>
+                    <p class="header-logo">fresh harvest box</p>
+                </div>
+            </div>
+            <ul class="footer-nav">
+                <li class="footer-nav-item">
+                    <a href="#" class="footer-nav-link">How It Works</a>
+                </li>
+                <li class="footer-nav-item">
+                    <a href="#" class="footer-nav-link">Fruits</a>
+                </li>
+                <li class="footer-nav-item">
+                    <a href="#" class="footer-nav-link">Contacts</a>
+                </li>
+            </ul>
+            <div class="footer-contacts-container">
+                <ul class="footer-contacts-list">
+                    <li class="footer-contacts-item">
+                        <a href="#" class="footer-contacts">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <path d="M17.08 4.06023C17.29 4.06023 17.5 4.06023 17.92 4.06023V7.21023C17.71 7.21023 17.29 7.21023 16.87 7.21023C16.45 7.21023 16.03 7.21023 15.82 7.42023C15.61 7.63023 15.61 7.84023 15.61 8.33023C15.61 8.75023 15.61 9.03023 15.61 9.45023H17.92V12.1102H15.61V23.6602H12.04V12.0402H10.15V9.38023H12.04V8.47023C12.04 6.93023 12.25 5.81023 12.67 5.32023C13.3 4.41023 14.56 3.99023 16.45 3.99023C16.66 4.06023 16.87 4.06023 17.08 4.06023Z" fill="#AE1332"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-contacts-item">
+                        <a href="#" class="footer-contacts">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <g opacity="0.8">
+                                    <path d="M25.1279 9.41152C25.1142 8.47146 24.9401 7.53885 24.6067 6.65964C24.0233 5.15827 22.8354 3.97109 21.3315 3.38991C20.4621 3.06332 19.5428 2.88822 18.6124 2.86835C17.4158 2.81495 17.0364 2.80005 13.9988 2.80005C10.9612 2.80005 10.5719 2.80005 9.38397 2.86835C8.45478 2.88822 7.53554 3.06332 6.66606 3.38991C5.1622 3.97109 3.97304 5.15827 3.3909 6.65964C3.06375 7.52767 2.88712 8.44538 2.86971 9.37302C2.81622 10.5689 2.80005 10.9477 2.80005 13.9802C2.80005 17.0127 2.80005 17.4002 2.86971 18.5873C2.88837 19.5162 3.06375 20.4327 3.3909 21.3032C3.97428 22.8033 5.1622 23.9905 6.66731 24.5717C7.53306 24.9095 8.45229 25.1007 9.38521 25.1305C10.5831 25.1839 10.9625 25.2001 14.0001 25.2001C17.0376 25.2001 17.427 25.2001 18.6149 25.1305C19.5441 25.1119 20.4633 24.9368 21.334 24.6102C22.8379 24.0278 24.0258 22.8406 24.6092 21.3405C24.9363 20.4712 25.1117 19.5547 25.1304 18.6246C25.1839 17.43 25.2001 17.0512 25.2001 14.0174C25.1976 10.9849 25.1976 10.5999 25.1279 9.41152ZM13.9913 19.7149C10.8144 19.7149 8.24083 17.1456 8.24083 13.974C8.24083 10.8024 10.8144 8.23302 13.9913 8.23302C17.1658 8.23302 19.7419 10.8024 19.7419 13.974C19.7419 17.1456 17.1658 19.7149 13.9913 19.7149ZM19.9707 9.35936C19.2281 9.35936 18.6298 8.7608 18.6298 8.02067C18.6298 7.28055 19.2281 6.68199 19.9707 6.68199C20.7108 6.68199 21.3104 7.28055 21.3104 8.02067C21.3104 8.7608 20.7108 9.35936 19.9707 9.35936Z" fill="#AE1332"/>
+                                    <path d="M13.9931 17.4789C15.9281 17.4789 17.4966 15.9104 17.4966 13.9754C17.4966 12.0405 15.9281 10.4719 13.9931 10.4719C12.0582 10.4719 10.4896 12.0405 10.4896 13.9754C10.4896 15.9104 12.0582 17.4789 13.9931 17.4789Z" fill="#AE1332"/>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-contacts-item">
+                        <a href="#" class="footer-contacts">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <g opacity="0.8">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21.21 5.24986C20.02 5.17986 17.57 5.10986 13.86 5.10986H13.37C9.80004 5.10986 7.42007 5.17986 6.23007 5.31986C4.62007 5.45986 3.50004 5.87986 2.87004 6.43986C2.31004 6.92986 1.89005 7.83986 1.75005 9.02986C1.68005 9.79986 1.61005 11.4099 1.61005 13.8599V14.2099C1.61005 16.5199 1.68004 18.1299 1.82004 18.8999C2.03004 20.0199 2.38007 20.8599 3.08007 21.3499C3.78007 21.9099 4.97005 22.2599 6.65005 22.3999C7.84005 22.4699 10.2901 22.5399 14.0001 22.5399H14.4901C18.0601 22.5399 20.4401 22.4699 21.6301 22.3299C23.2401 22.1899 24.3601 21.7699 24.9901 21.2099C25.5501 20.7199 25.97 19.8099 26.11 18.6199C26.18 17.8499 26.2501 16.2399 26.2501 13.7899V13.4399C26.2501 11.1299 26.1801 9.51986 26.0401 8.74986C25.8301 7.62986 25.4801 6.78986 24.7801 6.29986C24.0801 5.73986 22.89 5.38986 21.21 5.24986ZM18.4801 13.8599L10.7801 18.4799V9.23986L18.4801 13.8599Z" fill="#AE1332"/>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <a href="tel:+380684439426" class="footer-tel">+380 (68) 443-94-26</a>
+                <address class="footer-adress">1678 S. Pioneer Road
+                    Salt Lake City
+                    UT 84104</address>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
